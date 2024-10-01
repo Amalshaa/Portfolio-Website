@@ -1,4 +1,4 @@
-'use client';  // Marks this as a Client Component
+'use client';  
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
@@ -8,8 +8,10 @@ const ContactForm: React.FC = () => {
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
 
+    const apiKey = process.env.NEXT_PUBLIC_EMAILJS_API_KEY;
+
     emailjs
-      .sendForm('service_6ydnhbo', 'template_lbbpfqo', form.current!, 'eNCTnT0rMO3UOf0o7')
+      .sendForm('service_6ydnhbo', 'template_lbbpfqo', form.current!, apiKey)
       .then(
         () => {
           alert('Message sent successfully!');
