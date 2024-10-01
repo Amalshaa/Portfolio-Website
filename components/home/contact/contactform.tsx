@@ -1,4 +1,4 @@
-'use client';  // Marks this as a Client Component
+'use client'; 
 
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
@@ -12,7 +12,7 @@ const ContactForm: React.FC = () => {
     emailjs
       .sendForm('service_6ydnhbo', 'template_lbbpfqo', form.current!, 'eNCTnT0rMO3UOf0o7')
       .then(
-        (result) => {
+        () => {
           alert('Message sent successfully!');
           window.location.reload(); 
         },
@@ -26,7 +26,7 @@ const ContactForm: React.FC = () => {
   return (
     <div className="bg-[#140c1c] rounded-lg p-4 sm:p-10">
       <h1 className="text-bg text-2xl md:text-3xl lg:text-[2.5rem] font-bold">
-        Let's work together!
+        Lets work together!
       </h1>
       <p className="text-gray-200 mt-3 lg:text-base text-xs md:text-sm">
         Fill out the form to get in touch.
