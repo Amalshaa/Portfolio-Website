@@ -25,8 +25,8 @@ const Hero = () => {
 
             {/* Download CV Button */}
             <a
-              href="/amalshaCV.pdf" // Link to your CV in the public folder
-              download="Amalsha_CV.pdf" // Specify the downloaded file name
+              href="/amalshaCV.pdf" 
+              download="Amalsha_CV.pdf" 
             >
               <button className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex items-center space-x-2 button-hover-effect">
                 <span>Download CV</span>
@@ -39,9 +39,11 @@ const Hero = () => {
           <div className="flex justify-center lg:justify-end">
             {/* Adjusted for small and medium screens */}
             <div className="w-72 h-72 sm:w-80 sm:h-80 md:w-[28rem] md:h-[28rem] lg:w-[28rem] lg:h-[28rem] xl:w-[32rem] xl:h-[32rem] rounded-full overflow-hidden border-4 border-blue-950 profile-img">
-              <Img
+              <Image
                 src={BaseInfo.profilePic}
                 alt={BaseInfo.name}
+                width={500}
+                height={500}
                 className="w-full h-full object-cover"
               />
             </div>
