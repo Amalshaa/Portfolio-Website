@@ -12,7 +12,7 @@ const ContactForm: React.FC = () => {
     emailjs
       .sendForm('service_6ydnhbo', 'template_lbbpfqo', form.current!, 'eNCTnT0rMO3UOf0o7')
       .then(
-        (result) => {
+        () => {
           alert('Message sent successfully!');
           window.location.reload(); 
         },
