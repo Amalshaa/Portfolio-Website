@@ -1,6 +1,7 @@
 import { BaseInfo } from "@/data/data";
 import React from "react";
 import { FaDownload } from "react-icons/fa";
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -38,7 +39,7 @@ const Hero = () => {
           <div className="flex justify-center lg:justify-end">
             {/* Adjusted for small and medium screens */}
             <div className="w-72 h-72 sm:w-80 sm:h-80 md:w-[28rem] md:h-[28rem] lg:w-[28rem] lg:h-[28rem] xl:w-[32rem] xl:h-[32rem] rounded-full overflow-hidden border-4 border-blue-950 profile-img">
-              <img
+              <Img
                 src={BaseInfo.profilePic}
                 alt={BaseInfo.name}
                 className="w-full h-full object-cover"
