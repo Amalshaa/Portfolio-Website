@@ -25,7 +25,7 @@ const ContactForm: React.FC = () => {
   return (
     <div className="bg-[#140c1c] rounded-lg p-4 sm:p-10">
       <h1 className="text-bg text-2xl md:text-3xl lg:text-[2.5rem] font-bold">
-        Let&rsquos work together!
+        Lets work together!
       </h1>
       <p className="text-gray-200 mt-3 lg:text-base text-xs md:text-sm">
         Fill out the form to get in touch.
