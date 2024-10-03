@@ -38,7 +38,7 @@ const Nav = ({ openNav }: Props) => {
       <div className="flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto">
         {/* Logo */}
         <div className="ml-[-1.5rem] sm:ml-0">
-          <Image src="/images/logo.png" alt="LOGO" width={170} height={170} />
+          <Image src="/images/amalsha1.png" alt="LOGO" width={125} height={40} />
         </div>
 
         {/* Nav Links */}
@@ -46,17 +46,13 @@ const Nav = ({ openNav }: Props) => {
           <div className="hidden lg:flex items-center space-x-8">
             {navLinks.map((navlink) => (
               <Link key={navlink.id} href={navlink.url}>
-                <p className="nav__link">{navlink.label}</p>
+                <p className="nav__link cursor-pointer">{navlink.label}</p>
               </Link>
             ))}
           </div>
           {/* Buttons */}
           <div className="flex items-center space-x-4">
-            <Link href="/hire-me">
-              <button className="md:px-10 md:py-3 px-8 py-3 text-blue-800 font-semibold sm:text-base text-sm bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg">
-                Hire Me
-              </button>
-            </Link>
+            
             {/* Burger */}
             <HiBars3BottomRight
               onClick={openNav}

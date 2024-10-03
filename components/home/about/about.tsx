@@ -6,6 +6,7 @@ import Image from 'next/image';
 
 const About = () => {
   return (
+    <section id="about">
     <div className="pt-16 pb-16 bg-[#050709]">
       {/* Section Heading */}
       <Sectionheading> About Me </Sectionheading>
@@ -125,6 +126,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

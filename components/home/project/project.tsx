@@ -6,6 +6,7 @@ import Link from 'next/link';
 
 const Project = () => {
     return (
+      <section id="project">
       <div className="pt-16 pb-16 bg-[#050709]">
         {/* Section Heading */}
         <Sectionheading>My Projects</Sectionheading>
@@ -39,6 +40,7 @@ const Project = () => {
           ))}
         </div>
       </div>
+      </section>
     );
   };
   
