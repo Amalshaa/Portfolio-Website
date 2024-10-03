@@ -3,6 +3,7 @@ import { Sora } from "next/font/google";
 import "./globals.css";
 import Responsivenav from "@/components/home/navbar/responsivenav";
 import Footer from "@/components/home/footer/footer";
+import ScrollToTop from "@/components/helper/ScrollToTop";
 
 const font = Sora ({
   weight: ['100' , '200' ,'300' , '400' , '500' , '600' , '700' , '800' ],
@@ -25,6 +26,7 @@ export default function RootLayout({
           <Responsivenav/>
         {children}
         <Footer/>
+        <ScrollToTop/>
       </body>
     </html>
   );
