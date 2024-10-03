@@ -2,7 +2,6 @@ import React from 'react';
 import Sectionheading from '@/components/helper/sectionheading';
 import { aboutInfo } from '@/data/data';
 import { FaCheck } from 'react-icons/fa';
-import Image from 'next/image';
 
 const About = () => {
   return (
