@@ -121,13 +121,13 @@ export const BaseInfo = {
       id: 1,
       title: "React",
       image: "/images/react.svg",
-      percent: "90%",
+      percent: "75%",
     },
     {
       id: 2,
       title: "CSS",
       image: "/images/css.svg",
-      percent: "97%",
+      percent: "80%",
     },
     {
       id: 3,
