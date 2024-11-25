@@ -6,12 +6,12 @@ type Props = {
         id: number;
         title: string;
         image : string;
-        percent: string;
+        // percent: string;
     }
 }
 
 const Skillcard = ({skill}:Props) => {
-    const { image, percent, title} =skill;
+    const { image, title} =skill;
   return (
     <div className='p-6 hover:bg-blue-900 duration-300 transition-all cursor-pointer text-center rounded-lg bg-gray-900'>
         <Image src={image} 
