@@ -20,7 +20,7 @@ const Skillcard = ({skill}:Props) => {
         height={80}
         className='object-cover mx-auto'/>
       <h1 className='text-[18px] mt-4 text-white font-[600]'>{title}</h1>
-      <div className='bg-black mt-4 rounded-lg p-2 text-white opacity-40'>{percent}</div>
+      {/* <div className='bg-black mt-4 rounded-lg p-2 text-white opacity-40'>{percent}</div> */}
     </div>
   );
 };

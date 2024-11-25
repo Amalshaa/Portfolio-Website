@@ -73,7 +73,7 @@ export const BaseInfo = {
     {
       id: 1,
       image: "/images/ikonss.png",
-      url: "http://ikon.global/login/",
+      url: "https://platform.ikon.global",
       title: "IKON Unified Project workspace",
       description:"a centralized platform that enhances collaboration and project management in digital marketing built using Typescript, React, NodeJS, ExpressJS, MySQL",
     },
